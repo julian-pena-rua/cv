@@ -1,0 +1,7 @@
+@import url("/css/general/general.css");
+
+.BarraContacto{
+    text-align: center;
+    background-color: var(--ColorCuaternario);
+    
+}

@@ -1,0 +1,39 @@
+@import url("/css/general/general.css");
+
+
+.areacontenido{
+    width:27.4%;
+    display: inline-block;
+    border: 5px solid var(--ColorTerciario);
+    height: 100%;
+    padding: 1%;
+    margin: 1%;
+    border: 5px solid;
+    align-items: center;
+    
+}
+
+.areacontenido h2{
+    border-bottom: 5px dotted; 
+    width: 100%;
+    align-content: center;
+    font-size: 150%;
+    overflow: hidden;
+    padding: 1%;
+    margin: 1%;
+    
+    
+    
+}
+
+.areacontenido ul li{
+    align-content: center;
+    text-align: center;
+}
+
+@media (max-width:1010px){
+    .areacontenido{
+        width:100%;
+        display: block;
+    }
+}

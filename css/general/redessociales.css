@@ -1,0 +1,33 @@
+@import url("/css/general/general.css");
+
+
+.BarraElemento {            
+    display: inline-block;
+    padding: 1%;
+    
+}
+
+.BarraElemento a{
+    text-align: right;
+    text-decoration: none;
+    color: var(--ColorSecundario);     
+    font-size:200%;
+}
+
+
+.barra_subelemento{
+    display: none;
+}
+
+.BarraRepositorio{
+    text-align: center;
+    background-color: var(--ColorCuaternario);
+}
+
+.BarraRepositorio .BarraElemento a{
+    font-size:1200%;
+}
+
+
+
+

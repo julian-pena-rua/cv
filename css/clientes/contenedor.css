@@ -1,0 +1,5 @@
+@import url("/css/general/general.css");
+
+.contenedorclientes{
+    background-color: var(--ColorCuaternario);    
+}

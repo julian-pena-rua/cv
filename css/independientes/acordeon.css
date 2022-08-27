@@ -1,0 +1,130 @@
+@import url("/css/general/fuentes.css");
+
+@import url("/css/general/general.css");
+
+.contenedorindependiente{
+    margin: 1%;
+    
+}
+
+.pantalladividida{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 49.6%;
+    height: 100%;
+    z-index: 0;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    position: relative;
+}
+.centrado{
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.centrado h3{
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    padding: 1%;
+    font-size: 150%;
+}
+
+.imagenacordeon{
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.centrado .imagenacordeon img{
+    top: 0%;
+    left: 0%;
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.izquierda{
+    left: 0;
+    background-color: var(--ColorCuaternario);
+}
+.derecha{
+    right: 0;
+    background-color: var(--ColorCuaternario);
+}
+
+
+
+.acordeon {
+    background-color: var(--ColorTerciario);
+    color: var(--ColorSecundario);
+    cursor: pointer;
+    align-content: center;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    position: relative;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    font-size: 150%;
+}
+
+.acordeon:after {
+    font-family: 'Font Awersome 4.7.0', arial, sans-serif;
+    content: '\f0ab'; /* Unicode character for "down" */
+    color: #777;
+    float: right;
+    position: relative;
+    margin-left: 5px;
+    font-size: 150%;
+    font-weight: 900;
+    top: -1%;
+    right: 5%;
+}
+
+
+.active, .acordeon:hover {
+    background-color: var(--ColorCuaternario); 
+}
+
+.active:after .acordeon{
+    content: "\f0aa"; /* Unicode character for "up" */
+}
+
+.panel {
+    padding: 0 10%;
+    font-size: 70%;
+    display: none;
+    background-color: var(--ColorSecundario);
+    overflow: hidden;
+}
+.panel p{
+    padding: 1%;
+    color:#000;
+}
+
+@media (max-width:1010px){
+    .izquierda{
+        left: 0;
+    }
+    .derecha{
+        left: 0;
+    }   
+    .pantalladividida{
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+}

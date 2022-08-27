@@ -1,0 +1,78 @@
+@import url("/css/general/general.css");
+
+.contenedoracademico{
+    z-index: 0;
+    background-color: var(--ColorCuaternario);
+    position: relative;
+    
+}
+
+.tarjeta{
+    /*
+    margin-left: 0%;
+
+    background-color: var(--ColorTerciario);
+    
+    margin-bottom: 8%;
+    -webkit-filter: opacity(100%);
+    filter: opacity(100%);
+    z-index:1;*/
+    position: relative;
+    left: 2%;
+    right: 2%;
+    top: 50%;
+    text-align: center;
+    font-family: arial;
+    width: 28%;
+    margin: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    padding: 1%;
+    background-color: var(--ColorTerciario);
+
+}
+
+.tarjeta img{
+    margin-bottom: 0;
+    width: 100%;
+    height: 180px;
+    
+    overflow: hidden;
+}
+
+.tarjeta p{
+    text-align: center;
+    color: var (--ColorSecundario);
+    margin-bottom: 0%;
+}
+
+
+@media (max-width: 1024px) {
+    .tarjeta{
+        align-content: center;
+
+        margin-left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: var(--ColorTerciario);
+        padding-left: 1%;
+        padding-right: 1%;
+        margin-bottom: 8%;
+        -webkit-filter: opacity(100%);
+        filter: opacity(100%);
+        z-index:1;
+
+    }
+
+
+    .tarjeta p{
+        text-align: center;
+        color: var (--ColorSecundario);
+        margin-bottom: 0%;
+    }
+
+
+    .tarjeta img{
+        margin-bottom: 0%;
+    }
+}

@@ -1,0 +1,69 @@
+@import url("/css/general/general.css");
+
+@-webkit-keyframes animarNombreLogo{
+    25% {background-image: url(../../img/logo/logo1.png)}
+    50%   {background-image: url(../../img/logo/logo4.png)}
+    75%   {background-image: url(../../img/logo/logo3.png)}
+    100%   {background-image: url(../../img/logo/logo2.png)}
+    
+}
+
+
+@keyframes animarNombreLogo{
+    25% {background-image: url(../../img/logo/logo1.png)}
+    50%   {background-image: url(../../img/logo/logo4.png)}
+    75%   {background-image: url(../../img/logo/logo3.png)}
+    100%   {background-image: url(../../img/logo/logo2.png)}
+    
+}
+
+.nombrelogo{
+    width: 100%;
+    height: 120px;
+    z-index: 0;
+    background-position: center;
+    -webkit-filter: opacity(100%);
+    filter: opacity(100%), contrast(100%);
+    -webkit-animation-name: animarNombreLogo;
+    animation-name: animarNombreLogo;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+}
+.contenedornombrelogo{
+    width: 100%;
+    min-width: 400px;
+    margin:0;
+    padding: 0;
+    display: block;
+    padding-top: 10%;
+}
+
+@media (min-width:1500px){
+    .contenedornombrelogo{
+        padding-top: 4%;
+    }
+}
+@media (max-width:1500px){
+    .contenedornombrelogo{
+        padding-top: 5%;
+    }
+}
+@media (max-width:1120px){
+    .contenedornombrelogo{
+        padding-top: 3%;
+    }
+}
+@media (max-width:720px){
+    .contenedornombrelogo{
+        padding-top: 12%;
+    }
+}
+
+@media (max-width:500px){
+    .contenedornombrelogo{
+        padding-top: 18%;
+    }
+}

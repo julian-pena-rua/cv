@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    
+    <!-- <meta keywords="Portafolio, HTML5, JAVA, Julian">  -->
+    
+    <meta name="keywords" content="Portafolio, HTML5, JAVA, Julian">
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    
+    
+    <!-- Hojas de estilos, para mayor comodiddad para el programador, se han dividido según su propósito -->
+    
+    <!-- GENERAL  -->
+    
+    <link rel="stylesheet" type="text/css" href="css/general/areacotenido.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/general/contacto.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/general/fondohero.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/general/footer.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/general/general.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/general/menu.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/general/nombrelogo.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/general/redessociales.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/general/titulo.css">
+    
+    <!-- ACADEMICO -->
+    
+    <link rel="stylesheet" type="text/css" href="css/academicos/tarjeta.css">    
+    
+    <!-- INDEPENDIENTE -->
+    
+    <link rel="stylesheet" type="text/css" href="css/independientes/acordeon.css">
+    
+    <!-- CLIENTES  -->
+    
+    <link rel="stylesheet" type="text/css" href="css/clientes/flipcard.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/clientes/contenedor.css">
+    
+    <!-- COLABORACIONES  -->
+    
+    <link rel="stylesheet" type="text/css" href="css/colaboraciones/contenedor.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/colaboraciones/slideshow.css">
+    
+    <!-- Agrega libreria de iconos -->
+    
+    <link rel="stylesheet" href="css/general/font-awesome.min.css">        
+    
+    <title>Portafolio de Peña</title>
+</head>
+<body>
+    
+    
+    
+    <header>
+        
+        <div class="Logo" hidden>
+            <a href="#inicio" target="_blank">GEMA</a> 
+        </div>
+        
+        <nav class="BarraNavegacion" id = "BarraNavegacion">
+        
+            <ul>
+                
+                <li class="Hamburger" onclick="funcionHamburger()">
+                    
+                    <a href="#inicio" >
+                        <div class="rayahamburger"></div> 
+                    </a>   
+                    
+                </li>
+                
+                <li class="BarraNavegacionElemento"> <a href="#inicio">Inicio </a></li>
+                
+                <!-- Sub menú barra navegación -->
+                <li class="BarraNavegacionElemento"> <a href="#portafolio">Portafolio </a> </li>
+                <ol>
+                    <li class="barra_navegacionsubelemento">Aseguramiento de calidad</li>
+                    <li class="barra_navegacionsubelemento">Analista de desarrollo</li>
+                    <li class="barra_navegacionsubelemento">Formulación y evaluación de proyectos</li>
+                </ol>
+                <li class="BarraNavegacionElemento"> <a href="#colaboraciones">Colaboraciones </a> </li>
+                <li class="BarraNavegacionElemento"> <a href="#acerca" >Acerca</a> </li>
+                <li class="BarraNavegacionElemento"> <a href="#contacto"> Contacto </a></li>
+            </ul>
+        </nav>
+        
+        
+        
+        
+    </header>
+    
+    <main>
+        
+        <!-- CV Video (5 segs)   
+            Introduction and how about your self 
+            Why not written in a funny way 
+            Where you live and life style? 
+        -->
+        <section id ="inicio">
+            <div>
+                <div class="contenedornombrelogo"> 
+                    <div class = "nombrelogo"> 
+                        
+                    </div>
+                </div>
+                <p class="leyenda">Profesional en ingeniería de sistemas orientado a la calidad en el desarrollo y pruebas de software. Conoce de la metodología SCRUM, estilos de programación como MVC (Modelo Vista Controlador) y Hexagonal.</p>
+                <div class="fondoHero">
+                    <img src="img/actividad_desarrollo_sinfondo3.png" alt="actividad de desarrollo" >    
+                </div>
+                <h1 class="titulo" hidden  style="">  elPeña  </h1>
+            </div>
+            <div>
+                <div class = "areacontenido">
+                    <h2>Plataformas objetivo</h2>
+                    <ul>
+                        <li>Web</li>
+                        <li>Windows</li>
+                        <li>Android</li>
+                    </ul>
+                </div>
+                
+                <div class = "areacontenido">
+                    <h2>Lenguajes Programación</h2>
+                    <ul>
+                        <li>PHP</li>    
+                        <li>C#</li>
+                        <li>JAVA</li>
+                        <li>JAVASCRIPT</li>
+                    </ul>
+                </div>
+                
+                
+                <div  class = "areacontenido">
+                    <h2>Entornos de desarrollo</h2>
+                    <ul>
+                        <li>Unity</li>
+                        <li>Eclipse</li>
+                        <li>Visual Studio</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                
+                
+            </div>
+        </section>
+
+        <section id ="colaboraciones">
+            
+            <div class = "contenedorcolaboraciones">
+                <h3>Vinculaciones Laborales</h3>
+                <p>Colaboraciones realizadas desde el ámbito profesional en el área de tecnologías de la información y comunicaciones.</p>
+                
+                
+                
+                <div class="slideshow-container">
+                    
+                <a href="https://www.facebook.com/Yapjut-108506917652477" target="new window"><div class="mySlides fade">
+                        <div class="numbertext">1 / 4</div>
+                        <img src="img//colaboraciones/yapjut.png">
+                        <div class="text">
+                            <h4>AUTOMATIZACIÓN PROCESOS</h4>
+                            <p>YAPJUT - Colombia ANT MDE</p>
+                            <p>ADRIANA M. RÚA GÓEZ</p>    
+                            <p>2018 - 2022 </p>
+                        </div>
+                    </div></a>
+
+                    <a href="https://www.iush.edu.co/" target="new window"><div class="mySlides fade">
+                        <div class="numbertext">2 / 4</div>
+                        <img src="img/colaboraciones/sena.jpg">
+                        <div class="text">
+                            <h4>DOCENCIA TÉCNICA PROGRAMACIÓN SOFTWARE</h4>
+                            <p>CONVENIO SENA & INSTITUCIÓN UNIVERSITARIA SALAZAR Y HERRERA - Colombia ANT MDE</p>
+                            <p>CLAUDIA OSORIO</p>    
+                            <p>2021 - 2022 </p>
+                        </div>
+                    </div></a>
+
+                    
+                    <a href="https://www.youtube.com/watch?v=4yl0QgxiXb0" target="new window"><div class="mySlides fade">
+                        <div class="numbertext">3 / 4</div>
+                        <img src="img/colaboraciones/GEPI.png">
+                        <div class="text">
+                            <h4>DESARROLLO Y PRUEBAS DE SOFTWARE</h4>
+                            <p>GEPI Conexión - Colombia ANT MDE</p>
+                            <p>INSTITUCIÓN UNIVERSITARIA SALAZAR Y HERRERA </p>    
+                            <p>2019 - 2022</p>
+                        </div>
+                    </div></a>
+
+                    <a href="https://landix.com.br/es/" target="new window"><div class="mySlides fade">
+                        <div class="numbertext">4 / 4</div>
+                        <img src="img/colaboraciones/landix.jpg">
+                        <div class="text">
+                            <h4>ANALISTA IMPLANTACIÓN </h4>
+                            <p>Landix Sistemas - Brasil MG UDIA</p>
+                            <p>IVAN ARANTES COIMBRA JUNIOR</p>
+                            <p>FEBRERO 2018 - AGOSTO 2018</p> 
+                        </div>
+                    </div></a>
+                    
+
+                    
+                    
+                    <a class="prev" onclick="plusSlides(-1)"><span>&#10094;</span></a>
+                    <a class="next" onclick="plusSlides(1)"><span>&#10095;</span></a>
+                    
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(4)"></span> 
+                </div>
+                
+                
+            </div>
+            
+        </section>
+
+        <section id ="portafolio">
+        <h2>Portafolio</h2>        
+        
+        </section>
+
+        <section id ="repositorio">
+        <h3>Repositorio</h3>
+                        <ul class = "BarraRepositorio">
+                            <li class = "BarraElemento"><a href="https://github.com/julian-pena-rua" target="_blank" class="fa fa-github"></a></li>
+                            <li class = "BarraElemento"><a href="https://bitbucket.org/julian_pena_rua/" target="_blank" class="fa fa-bitbucket"></a></li>
+                            <li class = "BarraElemento"><a href="https://sourceforge.net/u/julian-pena-rua/" target="_blank" class="fa fa-code"></a></li>
+                            <li class = "BarraElemento"><a href="https://codepen.io/" target="_blank" class="fa fa-codepen"></a></li>
+                        </ul>   
+        </section>
+        
+        <section id ="independiente">
+            <div class = "contenedorindependiente">
+                <h3>Proyectos independientes</h3>
+        
+                <div class="pantalladividida">
+                    <div class="centrado izquierda">
+                        <h4>Heighten Entertainment Studios</h4>
+                        <div class = "imagenacordeon">
+                            <img src="img/apps/heighten.jpg" alt=""/>
+                        </div>
+                        <button class="acordeon">Fabrica y desarrollo de videojuegos</button>
+                        <div class="panel">
+                            <p>Organización fábrica de software interactivo inmersivo educativo para colegios y universidades.</p> 
+                            <p><a href="http://heighten.c1.biz" target="_blank" class="boton">Ver</a></p>
+                        </div>   
+                    </div>
+                </div>
+        
+                <div class="pantalladividida">
+                    <div class="centrado derecha">
+                        <h4>ROCK-IT</h4>
+                        <div class = "imagenacordeon">
+                            <img src="img/apps/rockit.png" alt="" />
+                        </div>
+                        <button class="acordeon">Mantenimiento y Soporte dispositivos TIC</button>
+                        <div class="panel">
+                            <p>Respaldos, recuperación, soporte y mantenimiento.</p>       
+                            <p><a href="http://rockit.c1.biz" target="_blank" class="boton">Ver</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        
+        <section id ="clientes">
+        <div class= "contenedorclientes">
+                    
+                    
+                    <h3>Clientes</h3>
+                    
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="img/clientes/gema.webp" alt="Avatar">
+                            </div>
+                            <div class="flip-card-back">
+                                <h2>Finanzas para el Hogar</h2> 
+                                <p>Realice planes de ahorro y presupuesto. Conozca si actualmente genera ganancias o pérdidas en su manejo del dinero.</p> 
+                                <p><a href="http://gema.260mb.net/?i=1" target="_blank" class="boton">Ver</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="img/clientes/Panqui.webp" alt="Avatar">
+                            </div>
+                            <div class="flip-card-back">
+                                <h2>PANQUI</h2> 
+                                <p>Panes y ponqués artesanales a base de quinoa. Un antojo para compartir con familiares y amigos.</p> 
+                                <p><a href="http://panqui.c1.biz" target="_blank" class="boton">Ver</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="img/clientes/drPaolaPena.webp" alt="Avatar">
+                            </div>
+                            <div class="flip-card-back">
+                                <h2>Dra Paola Peña</h2> 
+                                <p>Médica veterinaria y psícologa de animales. Aprénda a comunicarse empáticamente con su gato o perro.</p> 
+                                <p><a href="http://www.DrPaolaPena.com.co" target="_blank" class="boton">Ver</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="img/clientes/brujodelamor.jpg" alt="Avatar">
+                            </div>
+                            <div class="flip-card-back">
+                                <h2>Brujo del Amor</h2> 
+                                <p>No sufra mas en silencio contáctenos ahora mismo. limpiezas espirituales, entierros, hechizos de amor y conjuros.</p> 
+                                <p><a href="http://www.brujodelamor.co/" target="_blank" class="boton">Ver</a></p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    
+                    
+                    
+                
+            </div>
+        </section>
+        
+        
+        
+        <section id ="acerca">
+            
+            <div>
+                
+                <div>
+                    <h2>Acerca</h2>
+
+                    <p>Entusiasta del desarrollo de software y pruebas de calidad.</p>
+                    <p>Aplica estilos de programación orientada a objetos y servicios REST.</p>
+                    
+                    <h3>¿Qué hace en la profesión?</h3>
+                    <p>Basandose en estándares internacionales (IEEE) y las mejores prácticas (PSP, TSP, PMI) analiza, diseña, desarrolla, refactoriza y prueba software. </p>
+                    
+                </div>
+                
+            </div>
+            
+        </section>
+        
+        <section id ="contacto">
+            
+            
+            <div>
+                
+                <h2>Contacto</h2>
+                
+                <ul class = "BarraContacto">
+                    
+                    <li class = "BarraElemento"><a href="https://wa.me/573116048227?text=Estoy%20interesado%20en%20trabajar%20contigo" target="_blank" class="fa fa-whatsapp"></a></li>
+                    <li class = "BarraElemento"><a href="https://www.facebook.com/Julian-Pena-Rua" target="_blank" class="fa fa-facebook"> </a></li>
+                    <li class = "BarraElemento"><a href="https://twitter.com/Julian_Pena_Rua" target="_blank" class="fa fa-twitter"></a></li>
+                    <li class = "BarraElemento"><a href=" https://www.instagram.com/julian_pena_rua/" target="_blank" class="fa fa-instagram"></a></li>
+                    <li class = "BarraElemento"><a href="https://julian-pena-rua.tumblr.com/" target="_blank" class="fa fa-tumblr"></a></li>
+                    <li class = "BarraElemento"><a href="https://linkedin.com/in/julian-peña-rua-64b4b799" target="_blank" class="fa fa-linkedin"> </a></li>
+                    <li class = "BarraElemento"><a href="https://www.reddit.com/user/julian_pena_rua" target="_blank" class="fa fa-reddit"> </a></li>
+                    <li class = "BarraElemento"><a href="https://pinterest.com/julian_pena_rua" target="_blank" class="fa fa-pinterest"></a></li>
+                </ul>
+                
+                
+                
+            </div>
+        </section>
+        
+    </main>
+    
+    <footer>
+        <p>(C) 2018 - 2022 Julian A. Peña - Todos los derechos reservados </p>    
+    </footer>
+    
+</body>
+<script src="js/acordeon.js"></script>
+<script src="js/slideshow.js"></script>
+<script src="js/hamburger.js"></script>
+<script src="js/navbarTransparente.js"></script>
+</html>

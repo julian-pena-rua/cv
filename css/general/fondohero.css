@@ -1,0 +1,35 @@
+@import url("/css/general/general.css");
+
+
+@-webkit-keyframes animarFondoHero{
+    0% {background-image: url(../../img/actividad_desarrollo_sinfondo2.png)}
+    50%   {background-image: url(../../img/actividad_desarrollo_sinfondo3.png)}
+    100%   {background-image: url(../../img/actividad_desarrollo_sinfondo4.png)}
+    
+}
+
+@keyframes animarFondoHero{
+    0% {background-image: url(../../img/actividad_desarrollo_sinfondo2.png)}
+    50%   {background-image: url(../../img/actividad_desarrollo_sinfondo3.png)}
+    100%   {background-image: url(../../img/actividad_desarrollo_sinfondo4.png)}
+    
+}
+
+.fondoHero{
+    width: 100%;
+    height: 100%;
+    min-height:  200px;
+    background-position: center;
+    -webkit-animation-name: animarFondoHero;
+    animation-name: animarFondoHero;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    
+}
+
+.fondoHero img{
+    filter: opacity(00%);
+}
