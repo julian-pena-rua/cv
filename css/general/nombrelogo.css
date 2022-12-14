@@ -53,9 +53,16 @@
 }
 @media (max-width:1120px){
     .contenedornombrelogo{
-        padding-top: 3%;
+        padding-top: 6%;
     }
 }
+
+@media (max-width:980px){
+    .contenedornombrelogo{
+        padding-top: 9%;
+    }
+}
+
 @media (max-width:720px){
     .contenedornombrelogo{
         padding-top: 12%;

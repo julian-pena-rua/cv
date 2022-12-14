@@ -22,11 +22,24 @@
 .BarraRepositorio{
     text-align: center;
     background-color: var(--ColorCuaternario);
+    position: relative;
+    height: 200px;
+    align-items: center;
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+
 }
 
 .BarraRepositorio .BarraElemento a{
-    font-size:1200%;
+    font-size:500%;
 }
+
+/*Efecto Zoom, Magnificar o Aumentar*/
+.BarraRepositorio .BarraElemento a:hover{
+    font-size:700%;
+}
+
 
 
 
