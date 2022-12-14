@@ -40,13 +40,16 @@
 .flip-card-front {
     background-color: var(--ColorPrincipal);
     color: black;
+    justify-items: center;
+    display: block;
 }
 
 .flip-card-front img{
-    position: static;
+    position: relative;
     object-fit: cover;
-    width:100%;
-    height:100%;
+    width:90%;
+    height:90%;
+    top: 5%;
 }
 
 .flip-card-back {
